@@ -1,0 +1,39 @@
+*{
+    font-family: sans-serif, Arial;
+}
+h1{
+    color: orange;
+}
+body{
+    margin: 5%;
+    color: white;
+    background: #1c1c1c;
+}
+table{
+    border: 1px solid white;
+    border-collapse: collapse;
+}
+th{
+    color: orange;
+    border: 1px solid white;
+}
+td{
+    border: 1px solid white;
+}
+td a{
+    float: right;
+}
+a{
+    margin: 5px 0 5px 0;
+}
+input{
+    border: 1px solid orange;
+    border-radius: 5px;
+    color: white;
+    background: #161616;
+    padding: 5px;
+}
+#submit-button:hover{
+    color: orange;
+    background: black;
+}
