@@ -14,7 +14,7 @@
     <?php
 
         $einzahlung = !empty($_GET['einzahlung']) ? $_GET['einzahlung'] : 100;
-        $startkapital = !empty($_GET['startkapital']) ? $_GET['startkapital'] : 1000;
+        $startkapital = !empty($_GET['startkapital']) ? $_GET['startkapital'] : 0;
         $zinssatz = !empty($_GET['zinssatz']) ? $_GET['zinssatz'] : 10;
         $interval = !empty($_GET['interval']) ? $_GET['interval'] : 1;
         $dauer = !empty($_GET['dauer']) ? $_GET['dauer'] : 12;
