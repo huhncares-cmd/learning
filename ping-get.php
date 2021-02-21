@@ -42,7 +42,7 @@
         
         $file = "ping.txt"; 
         $handle = fopen($file, 'a+');
-        $data = sprintf("%.2f\n%.2f\n%.2f\n", $min, $mid, $max);
+        $data = sprintf("%.2f;%.2f;%.2f;", $min, $mid, $max);
         fwrite($handle, $data); 
         fclose($handle);
 
