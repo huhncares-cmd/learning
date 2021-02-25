@@ -39,10 +39,10 @@
             $mid = ($mid + $arr[$i]);
         }
         $mid = $mid/$i;
-        
-        $file = "ping.txt"; 
+        $date = date("l, d.m.Y -  H:i:s");
+        $file = "ping.csv"; 
         $handle = fopen($file, 'a+');
-        $data = sprintf("%.2f;%.2f;%.2f\n", $min, $mid, $max);
+        $data = sprintf("%s:\n\n%.2f;%.2f;%.2f\n", $date, $min, $mid, $max);
         fwrite($handle, $data); 
         fclose($handle);
 
